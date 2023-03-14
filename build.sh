@@ -5,6 +5,7 @@ apt install libgcrypt20-dev
 apt install libotr5-dev
 apt install libutf8proc-dev
 apt install libperl-dev
+apt install libssl-dev
 meson build --prefix=/home/arifendronugroho/irssi-git
 ninja -C build
 ninja -C build install
